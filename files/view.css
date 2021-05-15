@@ -1,0 +1,72 @@
+html{
+    height: 95vh;
+    }
+body{
+    background-color: #ffcf79;
+    width:98.5vw;
+    height:95vh;
+}
+#back_button{
+    width: 4%;
+    border: solid 0.5px white;
+    box-shadow: 0px 0px 2px black, 0px 0px 3px black;
+    border-radius: 2px;
+}
+#back_button a{
+    text-decoration: none;
+}
+#back_button:hover{
+    border: solid 0.5px black;
+    color: white;
+    background-color: black;
+}
+.view_button{
+    padding: 2vh 2vw 2vh 2vw;
+    margin-right: 4vw;
+    border: solid 0.5px white;
+    box-shadow: 1px 1px 3px black, 0px 0px 8px black;
+    border-radius: 2px;
+}
+.view_button:hover{
+    border: solid 0.5px black;
+    color: white;
+    background-color: black;
+}
+#member_list{
+    margin-left: 27%;
+}
+#heading_button{
+    margin-top: 3vh;
+}
+#user_data{
+    margin: 3vh 25% 0 25%;
+    width: 50%;
+}
+.user_data_container{
+    background-color: #fff;
+    padding: 0.5vw;
+    box-shadow: 0 0 5px #aaaaaa;
+    border-radius: 5px;
+}
+#table, #lottery_winner_table, #tender_winner_table, #lucky_draw_winner_table{
+    border-collapse: collapse;
+    width: 100%;
+}
+#table thead, #lottery_winner_table thead, #tender_winner_table thead, #lucky_draw_winner_table thead{
+    background-color: black;
+    border-radius: 5px 5px 0 0;
+}
+#table thead td, #lottery_winner_table thead td, #tender_winner_table thead td, #lucky_draw_winner_table thead td{
+    padding: 2px;
+    color: #ffff;
+    text-align: center;
+}
+.serial_no_td{
+    width: 40%;
+}
+.name_td{
+    width: 60%;
+}
+#lottery_winner_table thead td, #tender_winner_table thead td, #lucky_draw_winner_table thead td{
+    text-align: left;
+}

@@ -1,0 +1,198 @@
+html{
+    height: 95vh;
+    }
+body{
+    background-color: #ffcf79;
+    width:98.5vw;
+    height:95vh;
+}
+#back_button{
+    width: 4%;
+    border: solid 0.5px white;
+    box-shadow: 0px 0px 2px black, 0px 0px 3px black;
+    border-radius: 2px;
+}
+#back_button a{
+    text-decoration: none;
+}
+button:hover{
+    color: #0000;
+    background-color: #dadada;
+}
+#back_button:hover{
+    border: solid 0.5px black;
+    color: white;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: #470d03;
+    font-size: 5vh;
+    text-shadow: 0.3px 0.3px 0.5px white,1px 1px 2px rgb(28, 50, 110);
+    width: 40%;
+    margin: auto;
+}
+h3{
+    margin: 1% 0% 0% 0%;
+    text-align: center;
+    color: red;
+}
+#block1{
+    margin-top: 1%;
+    width: 40%;
+    height: 85%;
+    background-color: #313030;
+    box-shadow: 2px 2px 5px black, 0px 0px 10px black;
+    float: left;
+}
+#block2{
+    margin-top: 1%;
+    height: 85%;
+    width: 27%;
+    float: left;
+}
+#block3{
+    margin-top: 1%;
+    height: 85%;
+    width: 33%;
+    background-color: white;
+    box-shadow: 1px 1px 2px black, 1px 1px 10px black;
+    float: right;
+    position: relative;
+    
+}
+.agent_button{
+    width: 48%;
+    height: 5%;
+    margin: 1%;
+    display: inline;
+    text-align: left;
+    border: solid 0.5px #dadada;
+    background-color: white;
+    border-radius: 3px;
+}
+.agent_button:hover{
+    background-color: black;
+    color: white;
+    border: solid 0.5px #dadada;
+}
+.row{
+    display: table-row;
+    
+}
+.row label{
+    display: table-cell;
+    padding: 2px;
+    text-align: right;
+    font: 400 15px Helvetica;
+    text-shadow: 1px 1px 1px black, 0.5px 0.5px 1px black;
+}
+.row p{
+    display: table-cell;
+    padding: 5px;
+    width: 400px;
+    font: 400 15px Arial;
+    color: black;
+}
+#show_agent{
+    color: red;
+    width: 90%;
+    float: left;
+    height: 26%;
+    margin-top: 5%;
+    margin-left: 2%;
+    padding: 10px;
+    box-shadow: 2px 2px 5px black, 0px 0px 10px black;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+#agent_share{
+    border: solid 3px blue;
+    width: 53%;
+    height: 98%;
+    float: right;
+}
+#user_data{
+    width: 100%;
+}
+.user_data_container{
+    background-color: #fff;
+    padding: 1%;
+    box-shadow: 0 0 2px black, 1px 1px 5px black;
+    border-radius: 3px;
+}
+#table{
+    border-collapse: collapse;
+    width: 100%;
+}
+#table thead{
+    background-color: black;
+    border-radius: 3px 3px 0 0;
+}
+#table thead td{
+    padding: 2px;
+    color: #ffff;
+    text-align: center;
+}
+#share_serial_no{
+    width: 15%;
+}
+#share_name{
+    width: 70%;
+}
+#share_status{
+    width: 15%;
+}
+#form{
+    width: 95%;
+    margin-top: 70%;
+    margin-left: 2%;
+    height: 40%;
+}
+#theform{
+    color: white;
+    padding: 10px;
+    background-color: #0D4C87;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black, 0px 0px 10px black;
+}
+#add_button{
+    border: solid 0.5px white;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black;
+    border-radius: 2px;
+}
+#add_button:hover{
+    border: solid 0.5px green;
+    color: white;
+    background-color: green;
+
+}
+#add_agent_share{
+    position: absolute;
+    bottom: 1%;
+    box-shadow: 1px 1px 1px #4b4a4a, 0px 0px 3px black;
+    width: 96.5%;
+    margin-left: 1%;
+    background-color:  #0D4C87;
+    padding: 2px;
+}
+#add_agent_share table td{
+    text-align: center;
+}
+#add_agent_share table td input{
+    border-radius: 3px;
+}
+#share_add_button{
+    border-radius: 3px;
+    border: solid 1px black;
+}
+#share_add_button:hover{
+    background-color: green;
+    color: white;
+    border: solid 1px green;
+}
+.winner_share{
+    color: red;
+    opacity: 0;
+}

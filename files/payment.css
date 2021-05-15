@@ -1,0 +1,166 @@
+html{
+    height: 95vh;
+    }
+body{
+    background-color: #ffcf79;
+    width:98.5vw;
+    height:95vh;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    box-shadow: 1px 1px 5px black, 0px 0px 10px black;
+    background-color: #0D4C87;
+    border-radius: 5px;
+}
+#personal_details{
+    color: white;
+    display: table;
+    padding: 5px;
+}
+#back_button{
+    width: 4%;
+    float:left;
+    margin-right: 30%;
+    border: solid 0.5px white;
+    box-shadow: 0px 0px 2px black, 0px 0px 3px black;
+    border-radius: 3px;
+}
+#serial_number_form{
+    width: 30%;
+    margin-left: 35%;
+}
+button:hover{
+    color: #000;
+    background-color: #dadada;
+
+}
+#back_button:hover{
+    border: solid 0.5px black;
+    color: white;
+    background-color: black;
+}
+label{
+    padding: 2px;
+    text-align: right;
+}
+input{
+    display: inline;
+    padding: 2px;
+}
+#accordion{
+    width: 100%;
+}
+#accordion h1{
+    height: 7vh;
+}
+#share_pay,#loan_pay{
+    border-radius: 2px;
+    border: solid 0.5px white;
+    box-shadow: 1px 1px 2px black, 0px 0px 3px black;
+}
+#share_pay:hover,#loan_pay:hover{
+    color: #000;
+    background-color: #dadada;
+}
+aside{
+    margin-top: 4.5vh;
+    margin-left: 3vh;
+    width: 37.5%;
+    float: left;
+}
+main{
+    margin-top: 4.5vh;
+    margin-right: 3vh;
+    background-color: white;
+    width: 50%;
+    height: 75vh;
+    float: right;
+    box-shadow: 2px 2px 5px black, 0px 0px 10px black;
+    border-radius: 8px;
+}
+#personal_details_fieldset{
+    padding: 20px;
+    margin: 10px;
+    border: solid 3px red;
+    border-radius: 5px;
+    border-style: dotted;
+    box-shadow: 3px 3px 2px #524f4f, 2px 2px 5px black;
+}
+#personal_details{
+    margin: 10px 0px 10px 10px;
+    color: red;
+}
+.row{
+    display: table-row;
+    
+}
+.row label{
+    display: table-cell;
+    padding: 2px;
+    text-align: right;
+    font: 400 20px Helvetica;
+    text-shadow: 1px 1px 1px black, 0.5px 0.5px 1px black;
+}
+.row p{
+    display: table-cell;
+    padding: 5px;
+    width: 400px;
+    font: 400 17px Arial;
+    color: black;
+}
+#back_button a{
+    text-decoration: none;
+}
+.ui-datepicker-calendar {
+    display: none;
+}
+.below_button{
+    margin: 4vh 2vh 0 2vh;
+    color: white;
+    box-shadow: 1px 1px 3px black, 0.5px 0.5px 5px black;
+    border-radius: 2px;
+}
+#cancel_membership_button{
+    float: right;
+}
+#search{
+    border-radius: 2px;
+}
+#search:hover{
+    color: white;
+    background-color: black;
+    border: solid 0.5px black;
+}
+#lottery_winner_button{
+    background-color: blue;
+    border: solid 0.5px blue;
+}
+#tender_winner_button{
+    background-color: rgb(202, 54, 79);
+    border: solid 0.5px rgb(202, 54, 79);
+}
+#lucky_draw_winner_button{
+    background-color: green;
+    border: solid 0.5px green;
+}
+#delete_button{
+    background-color: red;
+    border: solid 0.5px red;
+}
+#lottery_winner_button:hover{
+    color: blue;
+    background-color: #dadada;
+}
+#tender_winner_button:hover{
+    color: rgb(202, 54, 79);
+    background-color: #dadada;
+}
+#lucky_draw_winner_button:hover{
+    color: green;
+    background-color: #dadada;
+}
+#delete_button:hover{
+    color: red;
+    background-color: #dadada;
+}

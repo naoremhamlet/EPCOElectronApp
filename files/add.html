@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0">
+        <link rel="stylesheet" href="add.css">
+    </head>
+    <body>
+        <button id="back_button"><a href="index.html">Back</a></button>
+        <form id="theform" onsubmit="return validate();">
+            <fieldset>
+            <legend>Membership Form</legend>
+                <div id="radio" class="row">
+                <label for="member_name" id="member_name_label">Name:</label>
+                <input type="text" id="member_name" maxlength="20" size="30"><br><br>
+                </div>
+                <div id="radio" class="row">
+                <label for="gender_male" id="gender_male_label">Male:</label>
+                <input type="radio" id="gender_male" name="maleorfemale" value="Male">
+                <label for="gender_female">Female:</label>
+                <input type="radio" id="gender_female" name="maleorfemale" value="Female"><br><br>
+                </div>
+                <div class="row">
+                <label for="serial_no">Serial No:</label>
+                <input type="pin" id="serial_no" maxlength="3" size="30"><br><br>
+                </div>
+                <div class="row">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" maxlenth="10" size="30"><br><br>
+                </div>
+                <div class="row">
+                <label for="address">Address:</label>
+                <input type="text" id="address" size="30"><br><br>
+                </div>
+                <div class="row">
+                <label for="agent">Agent:</label>
+                <input type="text" id="agent" size="30"><br><br>
+                </div>
+                <div class="row">
+                <label for="aadhar">Aadhar:</label>
+                <input type="pin" id="aadhar" maxlength="12" size="30"><br><br>
+                </div>
+            <button id="add_button" type="submit">Submit</button>
+            </fieldset>
+    </form>
+    </body>
+    <script src="add.js" type="text/javascript"></script>
+</html>

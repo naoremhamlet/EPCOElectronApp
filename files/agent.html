@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Agent</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="agent.css">
+    </head>
+    <body>
+        <button id="back_button"><a href="index.html">Back</a></button>
+        <h1>Agent Section</h1>
+        <div id="block1">
+            <h3>Agents</h3>
+        </div>
+        <div id="block2">
+            <div id="show_agent" class="left_side">
+                <fieldset id="agent_details_fieldset">
+                    <legend style="font:500 15px Helvetica;color: blue;text-shadow: 1px 1px 1px black">Agent detail</legend>
+                        <div class="row">
+                            <label for="show_agent_name">Name:</label>
+                            <p id="show_agent_name"> </p><br><br>
+                        </div>
+                        <div class="row">
+                            <label for="show_address">Address:</label>
+                            <p id="show_address"> </p><br><br>
+                        </div>
+                        <div class="row">
+                            <label for="show_phone">Phone:</label>
+                            <p id="show_phone"> </p><br><br>
+                        </div>
+                </fieldset>
+            </div>
+            <div id="form">
+                <form id="theform" onsubmit="return validate();">
+                    <fieldset>
+                    <legend>Agent Form</legend>
+                    <div  class="row">
+                        <label for="agent_name" id="agent_name_label">Name:</label>
+                        <input type="text" id="agent_name" maxlength="20" size="35" required><br><br>
+                    </div>
+                    <div class="row">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" maxlength="30" size="35" required><br><br>
+                    </div>
+                    <div class="row">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" maxlenth="10" size="35" required><br><br>
+                    </div>
+                    <button id="add_button" type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div id="block3">
+            <section id="user_data">
+                <div class="user_data_container">
+                    <table id="table">
+                        <thead>
+                            <tr>
+                                <td id="share_serial_no">Sl no</td>
+                                <td id="share_name">Name</td>
+                                <td id="share_status">Status</td>
+                            </tr>
+                        </thead>
+                        <tbody id="tb">
+                        </tbody>
+                    </table>
+                </div>
+                <div id="add_agent_share">
+                    <table id="add_agent_share_table">
+                        <tr>
+                            <td id="share_serial_no"><input type="pin" size="5" placeholder="Sl no" id="share_serial_no_input"></td>
+                            <td id="share_name"><input type="text" placeholder="Share Name" id="share_name_input" style="width: 70%">
+                                                <input type="text" placeholder="Status" id="share_status_input" style="width: 20%"></td>
+                            <td id="share_add"><button id="share_add_button" style="width: 100%">Add</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </body>
+    <script src="agent.js"></script>
+    
+</html>

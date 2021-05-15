@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EPCO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="indexcss.css">
+    </head>
+    <body>
+        <div id="heading">
+            <h1 id="change">EIKHOI PUNNA CHAOKHATPA OIMINNARASHI</h1>
+            <h2><i>Kongkham Awang , Nambol</i></h2>
+        </div>
+        <ul id="options">
+            <li><a  class="button" href="payment.html">Pay</a></li>
+            <li><a  class="button" href="agent.html">Agent</a></li>
+            <li><a  class="button" href="lottery.html">Lottery</a></li>
+            <li><a  class="button" href="view.html">View</a></li>
+            <li><a  class="button" href="add.html">Add</a></li>
+        </ul>
+    </body>
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script src="jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.theme.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.theme.min.css">
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.js" type="text/javascript"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js" type="text/javascript"></script>
+    <script>
+var change = document.getElementById('change');
+$(document).ready(function(){
+
+    animation();
+
+    function animation(){
+
+        $("h2").animate({
+        opacity: "0.3"
+    },1000, ()=>{
+        $("h2").animate({
+            opacity: "1"
+        },1000, ()=>{
+
+            change.style.color = "#00b7ff";
+            animation();
+        });
+
+        
+
+        change.style.color = "red";
+    });
+
+     
+    }
+    
+
+});
+
+    </script>
+</html>

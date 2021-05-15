@@ -1,0 +1,65 @@
+body{
+    background-color:lavender;
+	background-image: url('img.jpg');
+	background-size: 100% 200%;
+}
+#heading{
+    align-content: center;
+    height:35vh;
+    margin-top: 10vh;
+}
+h1,h2{
+    text-align: center;
+    font-size: 10vh;
+    color: rgb(12, 95, 163);
+    text-shadow: 3px 3px 5px black,10px 10px 15px black;
+    margin: auto;
+    
+}
+h1{
+    font-size: 7vh;
+}
+h2{
+    margin-top: 0;
+    font-size: 17vh;
+}
+#pass_div{
+    width:fit-content;
+    height:fit-content;
+    border-radius: 3px;
+    border: solid 1px chocolate;
+    margin:auto;
+    background-color: chocolate;
+    box-shadow: 1px 1px 1px rgb(66, 65, 65), 0px 0px 5px black;
+}
+#pass_form{
+    background-color: chocolate;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#pass{
+    padding: 5px;
+    display: table-row;
+}
+#pass label{
+    display: table-cell;
+    text-align: right;
+}
+#pass input{
+    display: table-cell;
+    border: solid 1px blue;
+    margin-left: 5px;
+}
+#pass button{
+    display: table-cell;
+    border-radius: 3px;
+    text-align: center;
+    margin-left: 5px;
+    background-color: rgb(116, 112, 112);
+    color: white;
+}
+#pass button:hover{
+    background-color: rgb(223, 211, 211);
+    color: black;
+}
